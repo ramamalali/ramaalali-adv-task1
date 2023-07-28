@@ -1,0 +1,69 @@
+.rm_footer {
+  background-image: url(../../Assets/images/footer-bg.png);
+  background-size: cover;
+  width: 100%;
+  height: 166px;
+  padding-top: 17%;
+}
+.rm_footer_h1 {
+  padding-right: 0.5%;
+}
+.rm_footer_ul {
+  width: 19%;
+  margin: 1.5% auto 1.5% auto;
+  display: flex;
+  justify-content: space-between;
+}
+.rm_footer_ul1 {
+  display: -webkit-inline-box;
+}
+
+.rm_footer_ul1 li {
+  font-size: 1.4rem;
+  list-style: none;
+  padding-left: 11%;
+}
+.rm_footer_icons {
+  width: 14%;
+  margin: 1.5% auto 1.5% auto;
+  display: flex;
+  justify-content: space-between;
+}
+.rm_footer_rama {
+  font-size: 1.3rem;
+}
+@media screen and (max-width: 1200px) {
+  .rm_footer_ul {
+    width: 30%;
+  }
+  .rm_footer_icons {
+    width: 22%;
+  }
+}
+@media screen and (max-width: 900px) {
+}
+@media screen and (max-width: 600px) {
+  .rm_footer_ul {
+    width: 43%;
+  }
+  .rm_footer_icons {
+    width: 31%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .rm_footer {
+    padding-top: 28%;
+  }
+  .rm_footer_ul1 li {
+    font-size: 1rem;
+  }
+  .rm_footer_ul {
+    width: 46%;
+  }
+  .rm_footer_icons_ul li {
+    font-size: 1rem;
+  }
+  .rm_footer_icons {
+    width: 31%;
+  }
+}

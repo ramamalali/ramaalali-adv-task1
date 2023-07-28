@@ -1,0 +1,61 @@
+.rm_trial {
+  width: 62%;
+  aspect-ratio: 14/2;
+  background-color: #dfe6e9;
+  margin: -14% auto 4% auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+}
+.rm_trial_text {
+  width: 77%;
+  font-size: 1.8rem;
+  text-align: justify;
+  font-size: 600;
+}
+.rm_trial_p {
+  color: #0984e3;
+}
+.rm_trial_buttom {
+  width: 111px;
+  height: 36px;
+  background-color: #0984e3;
+  color: #dfe6e9;
+  border-radius: 4px;
+  border: none;
+}
+
+@media screen and (max-width: 1068px) {
+  .rm_trial_text {
+    width: 75%;
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .rm_trial_text {
+    width: 65%;
+    font-size: 1.1rem;
+  }
+  .rm_trial_buttom {
+    width: 74px;
+    height: 26px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .rm_trial {
+    width: 86%;
+    margin: -3% auto 4% auto;
+  }
+  .rm_trial_text {
+    width: 53%;
+    font-size: 0.8rem;
+    padding-right: 17%;
+  }
+  .rm_trial_buttom {
+    width: 59px;
+    height: 22px;
+    font-size: 8px;
+  }
+}

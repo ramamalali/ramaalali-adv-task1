@@ -1,0 +1,33 @@
+nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 13% 0 10%;
+}
+.rm_navbar_logo {
+  font-size: 1.8rem;
+  color: rgb(112, 104, 104);
+}
+.rm_navbar_h1 {
+  padding-left: 2%;
+  width: 102%;
+}
+.rm_navbar_links {
+  display: -webkit-inline-box;
+  padding-top: 1.2%;
+}
+
+.rm_navbar_links .-menu li {
+  font-size: 1.4rem;
+  list-style: none;
+  padding-left: 11%;
+}
+.rm_navbar_links .-menu a {
+  text-decoration: none;
+  color: rgb(112, 104, 104);
+}
+@media screen and (max-width: 400px) {
+  .rm_navbar_links {
+    padding-top: 3.2%;
+  }
+}

@@ -1,0 +1,14 @@
+.rm_footer_icons {
+  width: 21%;
+  margin: 1.5% auto 1.5% auto;
+  display: flex;
+  justify-content: space-between;
+}
+.rm_footer_icons_ul {
+  display: -webkit-inline-box;
+}
+.rm_footer_icons_ul li {
+  font-size: 1.4rem;
+  list-style: none;
+  padding-left: 11%;
+}

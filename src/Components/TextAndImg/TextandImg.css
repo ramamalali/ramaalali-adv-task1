@@ -1,0 +1,31 @@
+.rm_ParentContainer_section_element {
+  height: 194px;
+  width: 221px;
+  margin: 0 auto;
+  border-radius: 35%;
+  background-color: #dfe6e9;
+  animation-name: stretch;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@keyframes stretch {
+  0% {
+    background-color: #0984e3;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: #dfe6e9;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: #dfe6e9;
+  }
+}
+.reverse {
+  flex-direction: row-reverse;
+}
