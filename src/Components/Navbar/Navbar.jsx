@@ -1,7 +1,7 @@
 import "./Navbar.css";
 import { AiFillSignal } from "react-icons/ai";
 
-const Navbar = ({ logo, item1, item2 }) => {
+const Navbar = ({ logo, githubLink, signinLink }) => {
   return (
     <>
       <nav>
@@ -13,10 +13,10 @@ const Navbar = ({ logo, item1, item2 }) => {
         <div className="rm_navbar_links">
           <ul className="rm_navbar_links -menu">
             <li>
-              <a href="/#">{item1}</a>
+              <a href="/#">{githubLink}</a>
             </li>
             <li>
-              <a href="/#">{item2}</a>
+              <a href="/#">{signinLink}</a>
             </li>
           </ul>
         </div>

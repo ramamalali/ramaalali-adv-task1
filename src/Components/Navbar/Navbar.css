@@ -2,7 +2,8 @@ nav {
   height: 50px;
   display: flex;
   justify-content: space-between;
-  padding: 2% 13% 0 10%;
+  padding: 3% 13% 0 10%;
+  align-items: center;
 }
 .rm_navbar_logo {
   font-size: 1.8rem;
@@ -26,8 +27,11 @@ nav {
   text-decoration: none;
   color: rgb(112, 104, 104);
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
+  .rm_navbar_logo{
+    margin-top:5rem;
+  }
   .rm_navbar_links {
-    padding-top: 3.2%;
+    display:none;
   }
 }
